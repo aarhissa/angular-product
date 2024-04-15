@@ -1,0 +1,26 @@
+<app-top-bar></app-top-bar>
+<div class="main container">
+  <div class="row">
+    <div class="col-2">
+      <h2>Example</h2>
+      <hr />
+      <!--  Add the component selector to use it in the template. -->
+      <app-user></app-user>
+    </div>
+
+    <div class="col-8">
+      <!-- <h2>Description</h2>
+      <hr />
+      <markdown path="/assets/desc.md"></markdown> -->
+
+      <router-outlet></router-outlet>
+    </div>
+
+    <div class="col-2">
+      <h2>Links</h2>
+      <hr />
+      <markdown path="/assets/links.md"></markdown>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
